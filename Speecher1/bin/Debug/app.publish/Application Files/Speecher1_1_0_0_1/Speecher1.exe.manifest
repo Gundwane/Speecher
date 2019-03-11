@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Speecher1.exe" version="1.0.0.1" publicKeyToken="729f81773c744869" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Speecher1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Speecher1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Speecher1.exe" size="10152">
+      <assemblyIdentity name="Speecher1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>F6upnOcY7Yn4pihQehlQ3CaEkUvGluMMaV9Y43WFvII=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Speecher1.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TS\emorales" issuerKeyHash="4e8a3470371b774f866cb47a6c4fb64e88492ace" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zcbv8eH7027kEn+uhBEzC1c03RsbIc/yIyZwu31MQ20=</DigestValue></Reference></SignedInfo><SignatureValue>nuXBY1HejP5Lf01xGjI+45Q0obvgI/pEtM07lmnup7FZs+iFJS/KclLmylxpxbx6iGgTmvvXWWC9bnxQprdBsjs0hpgVWO4v0lswvWpIypjAyxFl7NP0UfKelF+UIndluT1s6y/5GJM6iprF2NkhVnW7hZyl6uZm2h+h79fLoi0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3eaBxVvur7pUrir2IapE5L6aH4j+xA3GGEQ0bu48ftnnMsgL3cAr/T/nuCIwSltyuAWum/gJkZsDm5Sj7ryXa/grCZGQcb8kKmpaegSQn620ywYIVJhYB/Ho2w6JCucsu5yiINVIWQrb932dTuXBtgRbQdyTbk3i28E8rPDtaYk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6d434c7dbb702623f2cf211b1bdd34570b331184ae7f12e46ed3fbe1f1efc6cd" Description="" Url=""><as:assemblyIdentity name="Speecher1.exe" version="1.0.0.1" publicKeyToken="729f81773c744869" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TS\emorales</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zK6doXOv0m7VqmoRleZ04KFxQtlTJiJanVTvvEwCWNU=</DigestValue></Reference></SignedInfo><SignatureValue>LvflNSKUrCKcoRMwuNMf6yMyddEZtIinVPhpQpt9Wil3n2AhqXZ2H8YFMvBsxjkdgN5vus5Hpr1k4XD3O8F9SvYC5MSebtp+q6QcJZnXpF10MaJXfMeNoQQJcrW/uGeNzm+Oe7LUzwsWtpYzSS9CcVTYTJPSeFaovIJTm0NMFRU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3eaBxVvur7pUrir2IapE5L6aH4j+xA3GGEQ0bu48ftnnMsgL3cAr/T/nuCIwSltyuAWum/gJkZsDm5Sj7ryXa/grCZGQcb8kKmpaegSQn620ywYIVJhYB/Ho2w6JCucsu5yiINVIWQrb932dTuXBtgRbQdyTbk3i28E8rPDtaYk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQF8GLVuctr69PFgNW8uCiNTANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAVABTAFwAZQBtAG8AcgBhAGwAZQBzMB4XDTE5MDMwNzE5MTQzMVoXDTIwMDMwNzAxMTQzMVowITEfMB0GA1UEAx4WAFQAUwBcAGUAbQBvAHIAYQBsAGUAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3eaBxVvur7pUrir2IapE5L6aH4j+xA3GGEQ0bu48ftnnMsgL3cAr/T/nuCIwSltyuAWum/gJkZsDm5Sj7ryXa/grCZGQcb8kKmpaegSQn620ywYIVJhYB/Ho2w6JCucsu5yiINVIWQrb932dTuXBtgRbQdyTbk3i28E8rPDtaYkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA4tHYPThyQI6v+ORRNJG/44of1M4H0WbFWnIHYpbf7o58K/7Rv1JvpF3n45BmAG/R6o2GgmIt4ILbkLR8azd2jU6Rn9N4JLg84CaceAGsNAbzFcrlwpZy94KXiWBtG2sE0jN0iRokMov4ywclndP1xKQ0NxqxqvyX6eBG6UL6bqg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
